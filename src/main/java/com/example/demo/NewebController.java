@@ -1,7 +1,7 @@
 package com.example.demo;
 
-import idv.rennnhong.neweb.Trade;
-import idv.rennnhong.neweb.TradeBuilder;
+import idv.rennnhong.newebpay4j.Trade;
+import idv.rennnhong.newebpay4j.TradeBuilder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;

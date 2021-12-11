@@ -1,9 +1,5 @@
 package com.example.demo;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import idv.rennnhong.neweb.response.TradeInfo;
-import idv.rennnhong.neweb.response.TradeInfoResult;
-import idv.rennnhong.neweb.response.parser.TradeInfoParser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.PostMapping;
