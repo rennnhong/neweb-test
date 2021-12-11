@@ -4,13 +4,13 @@ plugins {
 	id 'java'
 }
 
-jar {
-	manifest {
-		attributes(
-				'Main-Class': 'com.example.demo.Demo3Application'
-		)
-	}
-}
+//jar {
+//	manifest {
+//		attributes(
+//				'Main-Class': 'com.example.demo.Demo3Application'
+//		)
+//	}
+//}
 
 group = 'com.example'
 version = '0.0.1-SNAPSHOT'
@@ -24,6 +24,7 @@ configurations {
 
 repositories {
 	mavenCentral()
+//	mavenLocal()
 }
 
 dependencies {
@@ -38,6 +39,8 @@ dependencies {
 	implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.0'
 	// https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12
 	implementation 'org.slf4j:slf4j-log4j12:2.0.0-alpha5'
+
+//	implementation 'idv.rennnhong:newebpay4j:1.0-SNAPSHOT'
 
 	runtimeOnly 'com.h2database:h2'
 
